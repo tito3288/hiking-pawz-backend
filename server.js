@@ -71,8 +71,8 @@ app.post("/checkout", async (req, res) => {
         },
       },
     ],
-    success_url: "<h1>Thank you for your purchase!</h1>",
-    cancel_url: "<h1>Hope to see you soon...</h1>",
+    success_url: "https://hiking-pawz-stripe.onrender.com/success",
+    cancel_url: "https://hiking-pawz-stripe.onrender.com/cancel",
   });
 
   res.send(
