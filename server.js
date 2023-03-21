@@ -71,7 +71,7 @@ app.post("/checkout", async (req, res) => {
         },
       },
     ],
-    success_url: "https://hiking-pawz-stripe.onrender.com/success",
+    success_url: "https://www.hikingpawz.com/",
     cancel_url: "https://www.hikingpawz.com/",
   });
 
